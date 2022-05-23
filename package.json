@@ -1,0 +1,17 @@
+{
+  "name": "cc-passignemnt-2",
+  "version": "1.0.0",
+  "description": "Programming assignment 2 for the compiler construction course",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Thamir Qadah",
+  "license": "ISC",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

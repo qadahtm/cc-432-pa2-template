@@ -1,1 +1,1 @@
-# cc-432-pa2-template
+# Programming Assignement Template for CC 432
