@@ -57,14 +57,14 @@ test('Parse test case 9', function () {
     expect(output).toBe("")
 })
 
-test('Parse test case 9', function () {
+test('Parse test case 10', function () {
     const input = "((x+x+x))"
     var output = parser.parse(input);
     expect(output).toBe("")
 })
 
 
-test('Parse test case 10', function () {
+test('Parse test case 11', function () {
     const input = "(())"
     const t = () => {
         var output = parser.parse(input);
@@ -73,7 +73,7 @@ test('Parse test case 10', function () {
     expect(t).toThrow(SyntaxError)
 })
 
-test('Parse test case 11', function () {
+test('Parse test case 12', function () {
     const input = "x*x"
     const t = () => {
         var output = parser.parse(input);
@@ -82,7 +82,7 @@ test('Parse test case 11', function () {
     expect(t).toThrow(SyntaxError)
 })
 
-test('Parse test case 12', function () {
+test('Parse test case 13', function () {
     const input = "(x*x)"
     const t = () => {
         var output = parser.parse(input);
@@ -91,7 +91,7 @@ test('Parse test case 12', function () {
     expect(t).toThrow(SyntaxError)
 })
 
-test('Parse test case 13', function () {
+test('Parse test case 14', function () {
     const input = "syntaxError"
     const t = () => {
         var output = parser.parse(input);
@@ -100,7 +100,7 @@ test('Parse test case 13', function () {
     expect(t).toThrow(SyntaxError)
 })
 
-test('Parse test case 14', function () {
+test('Parse test case 15', function () {
     const input = "+"
     const t = () => {
         var output = parser.parse(input);
